@@ -250,11 +250,12 @@ form .form-control {
 .boton {
     background-color: #5DB7DE;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    width: 100%;
+   
+   
 
 }
 
