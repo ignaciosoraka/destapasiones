@@ -1,0 +1,355 @@
+* {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(180deg,
+            rgba(49, 48, 51, 0.741) 0%,
+            rgb(35, 35, 36) 100%);
+}
+
+.navbar {
+    background: linear-gradient(180deg,
+            rgba(100, 99, 105, 0.662) 0%,
+            rgba(45, 44, 50, 0.073) 100%);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.urgencias-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    padding-left: 100px;
+}
+
+
+
+
+
+
+/*carrusel*/
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: rgb(252, 252, 254);
+    
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: rgb(83, 83, 207);
+}
+
+.carousel-caption a {
+    padding: 5px;
+}
+
+.carousel.inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 30, 82, 0.327);
+
+}
+
+
+
+
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.clienes.contenedor {
+    text-align: center;
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+/*servicios*/
+
+#servicios {
+    padding-top: 60px;
+
+}
+
+.titulo {
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin: 8px;
+    transition: 2s;
+    background: #ccc;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.contenido-texto-card {
+    text-align: center;
+}
+
+
+
+
+
+
+.contenido-texto-card h4 {
+    width: 100%;
+    color: #fff;
+
+
+}
+
+.contenido-texto-card p {
+    font-weight: 400;
+    padding-top: 5px;
+    margin: 0 15px 0 15px;
+}
+
+
+
+/*footers*/
+footer {
+    background: black;
+    padding: 40px 0 10px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    cursor: pointer;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 2px solid #5DB7DE;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+
+/*contacto*/
+#contacto {
+    padding-top: 110px;
+    padding-bottom: 100px;
+    background-color: #ccc;
+    margin: 70px;
+    box-shadow: #fff;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    border-radius: 5px;
+     }
+
+#contacto h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    padding: .275rem .3rem;
+    font-size: 1rem;
+
+}
+
+#contacto h4 {
+    color: #030303;
+}
+
+#contacto p {
+    text-align: center;
+    color: #030303;
+}
+
+.boton {
+    background-color: #5DB7DE;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+
+/*wsp*/
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    z-index: 999;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 678px) {
+    .navbar-nav {
+        text-align: center;
+
+    }
+    
+
+    
+
+    .carousel-item {
+        height: 70vh;
+    }
+
+    .w-100 {
+        height: 70vh;
+    }
+
+    .carousel-caption {
+        bottom: 100px;
+    }
+
+    .carousel-caption h5 {
+
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: auto;
+        font-size: 12px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .cards .card img {
+        max-width: 40%;
+        height: auto;
+    }
+
+    /*footer*/
+
+
+    .contenedor-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-foo {
+        margin-bottom: 20px;
+    }
+
+
+
+}
