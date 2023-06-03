@@ -412,7 +412,7 @@ form .form-control {
 
 @media (max-width: 678px) {
     .container {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .form-control {
@@ -423,4 +423,10 @@ form .form-control {
     textarea.form-control {
         height: 100px;
     }
+
+    .whatsapp-button-container {
+        position: fixed;
+        bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+        right: 20px; /* Ajusta la distancia desde el borde derecho */
+      }
 }
