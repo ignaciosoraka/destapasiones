@@ -16,6 +16,10 @@ body {
             rgba(45, 44, 50, 0.073) 100%);
     backdrop-filter: saturate(180%) blur(20px);
 }
+.navbar-toggler{
+    display: flex;
+    justify-content: flex-end;
+}
 
 .urgencias-bar {
     display: flex;
@@ -340,7 +344,20 @@ form .form-control {
 
 
 
+@media screen and (max-width: 767px) {
+    #texto {
+      order: 2;
+      text-align: center;
+      display:block;
+      flex-grow: 1;
+    }
+    .navbar-toggler {
+      order: 3;
+      margin-left: auto;
+    }
 
+   
+  }
 
 @media only screen and (max-width: 678px) {
     .navbar-nav {
